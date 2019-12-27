@@ -50,7 +50,7 @@ class Song
   
   def self.new_from_filename(filename)
     song = filename.split(' - ')
-    song[1] = song[1].slice(0..-4)
+    song[1] = song[1].slice(0..-5)
     new_by_name(song[1])
   end
   

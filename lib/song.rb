@@ -53,6 +53,7 @@ class Song
     song_arr[1] = song_arr[1].slice(0..-5)
     song = new_by_name(song_arr[1])
     song.artist_name = song_arr[0]
+    song
   end
   
   def self.create_from_filename(filename)

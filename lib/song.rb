@@ -52,4 +52,12 @@ class Song
     song = filename.split(" - ")
     new_from_filename(song[1])
   end
+  
+  def self.create_from_filename(filename)
+    
+  end
+  
+  def self.destroy_all
+    @@all = []
+  end
 end
